@@ -11,13 +11,13 @@ This Spring Boot application calculates the payable amount for a bill in a speci
 - Exposed `/api/calculate` endpoint for bill calculation.
 
 ## Technologies
-Spring Boot: Framework for creating stand-alone Java applications.
-Spring Security: Provides authentication and authorization for API endpoints.
-Spring Web (RestTemplate): Makes HTTP requests to a third-party service for currency exchange rates.
-Logback: Provides logging capabilities.
-Maven: Dependency management and build automation.
-Code Quality: Integrated with SonarQube for code analysis and Checkstyle for code standard compliance.
-Secure /api/calculate endpoint (HTTP Basic Authentication).
+- Spring Boot: Framework for creating stand-alone Java applications.
+- Spring Security: Provides authentication and authorization for API endpoints.
+- Spring Web (RestTemplate): Makes HTTP requests to a third-party service for currency exchange rates.
+- Logback: Provides logging capabilities.
+- Maven: Dependency management and build automation.
+- Code Quality: Integrated with SonarQube for code analysis and Checkstyle for code standard compliance.
+- Secure /api/calculate endpoint (HTTP Basic Authentication).
 
 ## Installation
 Prerequisites
