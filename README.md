@@ -11,12 +11,27 @@ This Spring Boot application calculates the payable amount for a bill in a speci
 - Currency conversion from one currency to another.
 - Exposed `/api/calculate` endpoint for bill calculation.
 
+## Technologies
+Spring Boot: Framework for creating stand-alone Java applications.
+Spring Security: Provides authentication and authorization for API endpoints.
+Spring Web (RestTemplate): Makes HTTP requests to a third-party service for currency exchange rates.
+Logback: Provides logging capabilities.
+Maven: Dependency management and build automation.
+
+## Installation
+Prerequisites
+JDK 17 or higher
+Maven (for building the project)
+IDE: (e.g., Spring Tool Suite, IntelliJ IDEA, Eclipse)
+
 ## How to Run
 1. Clone the repository.
 2. Run the application using `mvn spring-boot:run`.
 3. Send a POST request to `/api/calculate` with the bill details in JSON format.
 
 ### Example Request:
+POST /api/calculate
+example: http://localhost:8080/api/calculate
 ```json
 request:
 {
