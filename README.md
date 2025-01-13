@@ -18,6 +18,7 @@ This Spring Boot application calculates the payable amount for a bill in a speci
 
 ### Example Request:
 ```json
+request:
 {
   "totalAmount": 300.0,
   "groceryAmount": 50.0,
@@ -25,4 +26,17 @@ This Spring Boot application calculates the payable amount for a bill in a speci
   "customerTenure": 3,
   "originalCurrency": "USD",
   "targetCurrency": "EUR"
+}
+response:
+{
+    "totalAmount": 300.0,
+    "groceryAmount": 50.0,
+    "userType": "employee",
+    "customerTenure": 3,
+    "originalCurrency": "USD",
+    "targetCurrency": "EUR",
+    "discountAmount": 90.0,
+    "amountAfterDiscount": 210.0,
+    "exchangeRate": 0.975867,
+    "finalPayableAmount": 204.93207
 }
