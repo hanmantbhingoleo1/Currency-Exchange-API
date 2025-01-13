@@ -21,9 +21,9 @@ This Spring Boot application calculates the payable amount for a bill in a speci
 
 ## Installation
 Prerequisites
-JDK 17 or higher
-Maven (for building the project)
-IDE: (e.g., Spring Tool Suite, IntelliJ IDEA, Eclipse)
+- JDK 17 or higher
+- Maven (for building the project)
+- IDE: (e.g., Spring Tool Suite, IntelliJ IDEA, Eclipse)
 
 ## How to Run
 1. Clone the repository.
